@@ -8,30 +8,38 @@ const Banner = () => {
       <div className="banner-left">
         <h1 className="name">PREETHI MAHALINGAM</h1>
         <p className="title">Associate Software Developer</p>
+
         <p className="contact">
-          📍 puducherry &nbsp; | &nbsp;
-          📧 preethicap.a.m@gmail.com;
-          <div className="social-icons">
+          📍 Puducherry &nbsp; | &nbsp;
+          📧 preethicap.a.m@gmail.com
+        </p>
+
+        <div className="social-icons">
           <a
-            href="https://github.com/johndoe"
+            href="https://github.com/Preethi-1205"
             target="_blank"
             rel="noopener noreferrer"
             title="GitHub"
+            className="social-link"
           >
             <i className="fab fa-github"></i>
+            <span className="social-text">github.com/Preethi-1205</span>
           </a>
+
           <a
-            href="https://linkedin.com/in/johndoe"
+            href="https://www.linkedin.com/in/preethi-mahalingam-aa05a42a6/"
             target="_blank"
             rel="noopener noreferrer"
             title="LinkedIn"
+            className="social-link"
           >
             <i className="fab fa-linkedin"></i>
+            <span className="social-text">linkedin.com/in/preethi-mahalingam-aa05a42a6</span>
           </a>
         </div>
-        </p>
         <div className="skills">
-          <h3>Skills</h3><p><ul className="skills-list">
+          <h3>Skills</h3>
+          <ul className="skills-list">
             <li>HTML</li>
             <li>CSS</li>
             <li>JAVASCRIPT</li>
@@ -40,9 +48,10 @@ const Banner = () => {
             <li>SQL</li>
             <li>Git</li>
             <li>NODE JS</li>
-          </ul></p>   
+          </ul>
         </div>
       </div>
+
       <div className="banner-right">
         <img
           src="/profile-pic.jpg"
