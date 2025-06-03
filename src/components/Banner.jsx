@@ -1,16 +1,16 @@
 import React from 'react';
-import './Banner.css'; // Optional: move styles here if preferred
+import './Banner.css'; 
 
 const Banner = () => {
   return (
     <div className="banner-container">
       <div className="banner-left">
-        <h1 className="name">John Doe</h1>
-        <p className="title">Full Stack Developer | React | Node.js | Python</p>
+        <h1 className="name">PREETHI MAHALINGAM</h1>
+        <p className="title">ASSOCIATE SOFTWARE DEVELOPER | HTML/CSS |JAVASCRIPT | REACT JS </p>
         <p className="contact">
-          📍 New York, NY &nbsp; | &nbsp;
-          📧 john.doe@example.com &nbsp; | &nbsp;
-          🌐 www.johndoe.dev
+          📍 PUDUCHERRY &nbsp; | &nbsp;
+          📧 preethicap.a.m@gmail.com &nbsp; | &nbsp;
+          🌐 https://www.linkedin.com/in/preethi-mahalingam-aa05a42a6/
         </p>
       </div>
       <div className="banner-right">
