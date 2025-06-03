@@ -1,0 +1,47 @@
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1584px;
+  height: 396px;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  padding: 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.banner-left {
+  flex: 2;
+  text-align: left;
+}
+
+.name {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact {
+  font-size: 18px;
+}
+
+.banner-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+}
