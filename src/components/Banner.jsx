@@ -6,12 +6,12 @@ const Banner = () => {
   return (
     <div className="banner-container">
       <div className="banner-left">
-        <h1 className="name">PREETHI MAHALINGAM</h1>
+        <h1 className="name">NAME</h1>
         <p className="title">Associate Software Developer</p>
 
         <p className="contact">
           📍 Puducherry &nbsp; | &nbsp;
-          📧 preethicap.a.m@gmail.com
+          📧 XYZ@gmail.com
         </p>
 
         <div className="social-icons">
@@ -23,7 +23,7 @@ const Banner = () => {
             className="social-link"
           >
             <i className="fab fa-github"></i>
-            <span className="social-text">github.com/Preethi-1205</span>
+            <span className="social-text">github.com</span>
           </a>
 
           <a
@@ -34,7 +34,7 @@ const Banner = () => {
             className="social-link"
           >
             <i className="fab fa-linkedin"></i>
-            <span className="social-text">linkedin.com/in/preethi-mahalingam-aa05a42a6</span>
+            <span className="social-text">linkedin.com</span>
           </a>
         </div>
         <div className="skills">
